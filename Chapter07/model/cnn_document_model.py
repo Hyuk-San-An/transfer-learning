@@ -4,6 +4,7 @@ Created on Tue Apr 10 10:57:16 2018
 
 @author: tghosh
 """
+from drive.MyDrive.git_clone.transferlearning.Chapter07.model.custom_layer import KMaxPooling   ### colab 에 맞춤
 
 from keras.layers import Input, Dense, Embedding, Conv1D, Dropout, Concatenate, Lambda, GaussianNoise
 from keras.layers import Reshape, Flatten, Permute
