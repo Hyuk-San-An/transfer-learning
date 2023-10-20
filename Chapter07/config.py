@@ -9,7 +9,8 @@ import pandas as pd
 import numpy as np
 import os
 
-TEXT_DATA_DIR = './data/'
+# TEXT_DATA_DIR = './data/'
+TEXT_DATA_DIR = '/kaggle/input/'
 
 #Dataset from http://ai.stanford.edu/~amaas/data/sentiment/
 IMDB_DATA = TEXT_DATA_DIR + 'aclImdb'
